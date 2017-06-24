@@ -1,0 +1,38 @@
+{
+  "name": "clip-image",
+  "version": "1.0.3",
+  "description": "setting width and height that expected, keep pixel to clip image",
+  "main": "clipImage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/zhouchangsheng/clipImage.git"
+  },
+  "bugs":{
+    "url":"https://github.com/zhouchangsheng/clipImage/issues"
+  },
+  "keywords": [
+    "clipImage",
+    "image",
+    "clip",
+    "clip-image",
+    "plugin",
+    "client-side"
+  ],
+  "dependencies":{},
+  "devDependencies":{},
+  "author": {
+    "name":"jerry_zhou(zhou chang sheng)",
+    "email":"zcs1041883243@gmail.com"
+  },
+  "maintainers":[
+    {
+      "name":"jerry_zhou(zhou chang sheng)",
+      "email":"zcs1041883243@gmail.com"
+    }
+  ],
+  "license": "ISC",
+  "homepage":"https://github.com/zhouchangsheng/clipImage"
+}

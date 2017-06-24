@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test clipImage</title>
+    <script src="../lib/index.js"></script>
+</head>
+<body>
+<div>
+    <div style="display:block;height:350px;overflow:auto; max-width:800px;min-width:700px;width:100%;padding:20px;background-color:white;">
+    <div id="CLIPIMAGE-WRAPPER" style="float:left;background-color:#cccccc;min-width:300px;width:60%;" ng-style="operationArea">
+        <canvas id="CLIPIMAGE-PANEL" ></canvas>
+        </div>
+    <div style="float:left;height:100%; min-width:200px;width:40%;" ng-style="showArea">
+        <div style="max-width:400px;display:inline-block;padding-left:20px;"><canvas id="CLIPIMAGE-SHOWPANEL" style="width:100%"></canvas></div>
+        </div>
+    </div>
+
+</div>
+<div >
+    <button type="button" onclick="chageUrl()">changeImgUrl</button>
+    <button type="button" onclick="saveImage()">saveImage</button>
+</div>
+<script>
+    var clipImage = new ClipImage({
+        url:'http://localhost:8189/service/static/images/country-flag/ad.svg',
+        mode:'rect',//rect|circle|circleToRect
+        distPic:{
+            height:200,
+            width:200
+        },
+        elements:{
+            wrapper:{
+                value:'CLIPIMAGE-WRAPPER',
+                //value:wrapNode,
+            },
+            panel:'CLIPIMAGE-PANEL',
+            //panel:panelNode,
+            showPanel:'CLIPIMAGE-SHOWPANEL',
+            //showPanel:showPanelNode
+        },
+        scalePoint:{
+            size:20,
+            color:"yellow"
+        }
+    },function(err){console.log(err)})
+
+    function chageUrl() {
+        clipImage.changeImgUrl('http://localhost:8189/service/static/images/country-flag/cn.svg')
+    }
+
+    function saveImage() {
+        clipImage.saveImage('base64')
+    }
+</script>
+</body>
+</html>
