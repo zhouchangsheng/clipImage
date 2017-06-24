@@ -1,6 +1,6 @@
 {
-  "name": "clipImage",
-  "version": "1.0.1",
+  "name": "clip-image",
+  "version": "1.0.5",
   "homepage": "https://zhouchangsheng.github.io",
   "main": [
     "./lib/index.js"

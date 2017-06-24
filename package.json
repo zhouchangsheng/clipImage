@@ -1,6 +1,6 @@
 {
   "name": "clip-image",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "setting width and height that expected, keep pixel to clip image",
   "main": "./lib/index.js",
   "scripts": {
