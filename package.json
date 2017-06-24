@@ -2,7 +2,7 @@
   "name": "clip-image",
   "version": "1.0.3",
   "description": "setting width and height that expected, keep pixel to clip image",
-  "main": "clipImage.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
