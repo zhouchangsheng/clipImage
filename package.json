@@ -1,6 +1,6 @@
 {
   "name": "clip-image",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "setting width and height that expected, keep pixel to clip image",
   "main": "./lib/index.js",
   "scripts": {
@@ -19,7 +19,10 @@
     "clip",
     "clip-image",
     "plugin",
-    "client-side"
+    "client-side",
+    "裁剪图片",
+    "裁剪",
+    "图片"
   ],
   "dependencies":{},
   "devDependencies":{},
