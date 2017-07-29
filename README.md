@@ -9,7 +9,7 @@
 你可以使用这个插件，按照在配置对象中定义的尺寸在不失真情况下进行图片裁切。这个插件有操作和显示两个部分，在操作区，你可以拖拽或缩放裁剪框，裁剪框的宽高比和目标图片尺寸宽高比一致且有使图片不失真的最小宽高；显示区实时响应操作区的拖拽和缩放等动作，将裁剪框中的图像按照配置对象中的尺寸显示出来。
 
 ### 示例
-<a href="https://plnkr.co/OX2No8ymIwDLs7P7huuR" target="_blank">plunker-clipImage</a>
+[plunker-clipImage](https://plnkr.co/OX2No8ymIwDLs7P7huuR)
 
 ### 用法
 #### 1.实例化
